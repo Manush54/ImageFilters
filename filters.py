@@ -177,11 +177,3 @@ def process():
 
 process()
 shutil.rmtree("temp", ignore_errors=False, onerror=None)
-# Define the codec and create VideoWriter object
-fourcc = cv.VideoWriter_fourcc(*'mp4v')
-video_writer = cv.VideoWriter( "video.mp4", fourcc, 5, (500,667))
-
-for image in img_lst:
-    video_writer.write(image)
-
-video_writer.release()
