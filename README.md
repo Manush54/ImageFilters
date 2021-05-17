@@ -16,7 +16,7 @@ Filters included:
 
 Libraries required:
 <ul>
-  <li><a href="https://pypi.org/project/opencv-python/">OpenCV cv2</a></li>
+  <li><a href="https://pypi.org/project/opencv-python/">OpenCV</a></li>
   <li><a href="https://pypi.org/project/os-sys/">OS</a></li>
   <li><a href="https://pypi.org/project/pytest-shutil/">Shutil</a></li>
   <li><a href="https://pypi.org/project/glob2">Glob</a></li>
