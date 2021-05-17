@@ -1,6 +1,7 @@
 # ImageFilters
 
 Apply various filters to a simple photograph and get a slideshow of all the transformed images with animations.
+<br/>
 Filters included:
 <ul>
   <li>Blur</li>
