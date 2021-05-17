@@ -28,14 +28,6 @@ gray = cv.cvtColor(output,cv.COLOR_BGR2GRAY)
 #rgbeffect
 rgb = cv.cvtColor(output,cv.COLOR_BGR2RGB)
 # cv.imshow('rgb',rgb)
-'''
-#hsv
-hsv = cv.cvtColor(output, cv.COLOR_BGR2HSV)
-cv.imshow('HSV', hsv)
-
-#lab
-lab = cv.cvtColor(output, cv.COLOR_BGR2LAB)
-cv.imshow('LAB', lab)'''
 
 #blur
 blur = cv.GaussianBlur(output, (7,7), cv.BORDER_DEFAULT)
@@ -54,7 +46,6 @@ threshold, thresh = cv.threshold(output, 100, 150, cv.THRESH_BINARY )
 # cv.imshow('Simple Thresholded', thresh)
 
 #watercolor
-
 gray_1 = cv.medianBlur(gray, 5)
 edges = cv.adaptiveThreshold(gray_1, 255, cv.ADAPTIVE_THRESH_MEAN_C, cv.THRESH_BINARY, 9, 5)
 
